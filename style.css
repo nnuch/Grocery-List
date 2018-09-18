@@ -1,0 +1,8 @@
+/* Darker background-color on hover */
+ul li:hover {
+  background: lightblue;
+}
+
+.done {
+  text-decoration: line-through;
+}
