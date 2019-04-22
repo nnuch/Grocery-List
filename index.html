@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" user-scalable="no">
 	<title>JavaScript-GroceryList</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1>Grocery List</h1>
-	<p id="first">Get it done today</p>
 	
-	<input type="text" id="userInput" placeholder="Title">
-	<button id="buttonAdd">Add</button>
-	<ul>
-		<li class="checked" random="23">Tomato sauce</li>
-		<li>Mustard</li>
-		<li>Spinach</li>
-		<li>Rice</li>
-		<li>Birthday</li>
-		<li>Candles</li>
-	</ul>
-	
+	<div class="card">
+		<div class="header">
+			<h1 style="font-family: 'Golden Ranger Golden Ranger'">Grocery List</h1>
+		</div>
+
+		<div class="input">
+			<p id="first">Get it done today!</p>
+			<input type="text" id="userInput" placeholder="Title">
+			<button id="buttonAdd">Add</button>
+		</div>
+
+		<div class="content">
+			<ul>
+				<li class="checked" random="23">Tomato sauce</li>
+				<li>Mustard</li>
+				<li>Spinach</li>
+				<li>Rice</li>
+				<li>Birthday</li>
+				<li>Candles</li>
+			</ul>
+		</div>
+	</div>
+
+
+
+  <div class="circle1"></div>
+
 
 <script type="text/javascript" src="script.js"></script>
 </body>

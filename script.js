@@ -4,9 +4,11 @@ var ul = document.querySelector("ul");
 var li = document.querySelectorAll("li");
 
 
+
 function inputLength() {
 	return input.value.length;
 }
+
 
 // Create the LI list
 function createListElement() {
@@ -19,6 +21,7 @@ function createListElement() {
 }
 
 
+
 function addListAfterClick() {
 	if (inputLength() > 0) {
 		createListElement()
@@ -26,6 +29,7 @@ function addListAfterClick() {
 		alert("Please, input your item!");
 	}
 }
+
 
 function addListAfterKeypress(event) {
 	// console.log(event); //How to check the keyCode!
@@ -35,6 +39,7 @@ function addListAfterKeypress(event) {
 	} 
 }
 
+
 // Toggles the .done class on click
 function toggleClass(li) {
     li.addEventListener("click", function(){
@@ -42,15 +47,17 @@ function toggleClass(li) {
     })
 }
 
+
 // Adds the toggle (the done class) on the li element
 function addClassToLi() {
     li.forEach(toggleClass);
 }
 
 
+
 // Changing Styles
 button.style.color = "white";
-button.style.background = "blue";
+
 
 
 // Toggle the 'done' class
