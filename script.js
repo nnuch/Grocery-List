@@ -4,7 +4,6 @@ var ul = document.querySelector("ul");
 var li = document.querySelectorAll("li");
 
 
-
 function inputLength() {
 	return input.value.length;
 }
@@ -19,7 +18,6 @@ function createListElement() {
 	toggleClass(li);	
 
 }
-
 
 
 function addListAfterClick() {
@@ -54,10 +52,8 @@ function addClassToLi() {
 }
 
 
-
 // Changing Styles
 button.style.color = "white";
-
 
 
 // Toggle the 'done' class
